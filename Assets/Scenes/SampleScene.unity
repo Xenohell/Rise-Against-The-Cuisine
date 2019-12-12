@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet_Emitter: {fileID: 213852904}
-  Bullet: {fileID: 793696221094236109, guid: 29e7a8ddf7d44a649b4c8218395b95ba, type: 3}
+  Bullet: {fileID: 8528046044092510292, guid: b595e961497bb7445b052be167ec3bb2, type: 3}
   Bullet_Speed: 500
   Fire_Rate: 0.2
   Max_Ammo: 10
