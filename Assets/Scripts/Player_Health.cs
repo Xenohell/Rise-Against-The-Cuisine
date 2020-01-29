@@ -3,23 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class health_bar_number : MonoBehaviour
+public class Player_Health: MonoBehaviour
 {
     public Text p_health_Text;
     public Slider p_health_bar_slider;
     public float p_current_health;
     public float p_max_health;
     public GameObject testbox;
+
     void Start()
     {
         p_current_health = p_max_health;
         p_health_bar_slider.value = ChangeHealth();
-
-
     }
     
-    // Start is called before the first frame update
-    // Update is called once per frame
     void Update()
     {
         p_health_bar_slider.value = ChangeHealth();
@@ -30,10 +27,18 @@ public class health_bar_number : MonoBehaviour
             Destroy(testbox);
         }
     }
+
+    public void TakeDamage(float amount)
+    {
+        p_current_health -= amount;
+        ChangeHealth();
+    }
+
     float ChangeHealth()
     {
-
         return p_current_health / p_max_health;
     }
+
+    
 }
         
