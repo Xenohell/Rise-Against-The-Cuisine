@@ -256,3 +256,7 @@ C:\Users\vodna\Rise Against the Cuisine\obj\Debug\Assembly-CSharp.csproj.CoreCom
 C:\Users\vodna\Rise Against the Cuisine\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\vodna\Rise Against the Cuisine\obj\Debug\Assembly-CSharp.dll
 C:\Users\vodna\Rise Against the Cuisine\obj\Debug\Assembly-CSharp.pdb
+C:\Users\vodna\Documents\GitHub\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\vodna\Documents\GitHub\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\vodna\Documents\GitHub\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.dll
+C:\Users\vodna\Documents\GitHub\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.pdb

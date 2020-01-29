@@ -11,6 +11,12 @@ public class Player_Health: MonoBehaviour
     public float p_max_health;
     public GameObject testbox;
 
+    // Added by Gabriel Cruceanu
+    // variables for continous damage to the player if the player keeps colliding with an enemy
+    float time_colliding;
+    public float timeThreshold = 1f;
+    //
+
     void Start()
     {
         p_current_health = p_max_health;
@@ -28,17 +34,53 @@ public class Player_Health: MonoBehaviour
         }
     }
 
-    public void TakeDamage(float amount)
-    {
-        p_current_health -= amount;
-        ChangeHealth();
-    }
-
     float ChangeHealth()
     {
         return p_current_health / p_max_health;
     }
 
-    
+    // Added by Gabriel Cruceanu
+    // Three methods, one for the moment when the player starts colliding with the enemy one for when the player is continously colliding,
+    // and one for substracting the amount from the player's health
+    void OnCollisionEnter(Collision collision)
+    {
+        // Checks if the player has collided with enemies
+        if (collision.gameObject.tag == "Enemy")
+        {
+            // Reset the timer to 0
+            time_colliding = 0f;
+            // Deal a random amount of damage to the player
+            PlayerDamage(Random.Range(4, 7));
+        }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        // Checks if the player has collided with enemies
+        if (collision.gameObject.tag == "Enemy")
+        {
+            // Add delta time if the time is below the threshold
+            if (time_colliding < timeThreshold)
+                time_colliding += Time.deltaTime;
+            else
+            {
+                // When the timer goes over the threshold, deals random amount of damage to the player and then resets the timer
+                PlayerDamage(Random.Range(4, 7));
+                time_colliding = 0f;
+            }
+        }
+    }
+
+    void PlayerDamage(float amount)
+    {
+        // Substract the amount of damage from the player's current health
+        p_current_health -= amount;
+        // If the player's health is below 0, set the health to 0 (so it doesn't appear with negative values) and the player dies
+        if(p_current_health<=0)
+        {
+            p_current_health = 0;
+            Debug.Log("You died");
+        }
+    }
+
 }
-        
