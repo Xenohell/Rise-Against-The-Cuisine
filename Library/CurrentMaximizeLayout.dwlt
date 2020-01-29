@@ -29,6 +29,9 @@ MonoBehaviour:
 =======
   controlID: 118
 >>>>>>> Stashed changes
+=======
+  controlID: 118
+>>>>>>> Stashed changes
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +221,11 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_ExpandedIDs: 6efbfffffe2f000006300000
+=======
+      m_ExpandedIDs: 08faffff0cfaffff1efaffff0efbffff62300000
+>>>>>>> Stashed changes
 =======
       m_ExpandedIDs: 08faffff0cfaffff1efaffff0efbffff62300000
 >>>>>>> Stashed changes
@@ -310,9 +317,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 51.13528, y: -64.83552, z: 144.45345}
     speed: 2
     m_Value: {x: 51.13528, y: -64.83552, z: 144.45345}
+=======
+    m_Target: {x: 118.88133, y: 194.95865, z: -170.82063}
+    speed: 2
+    m_Value: {x: 118.88133, y: 194.95865, z: -170.82063}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: 118.88133, y: 194.95865, z: -170.82063}
     speed: 2
@@ -347,9 +360,15 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: -0.22883086, y: -0.22279575, z: 0.053906135, w: -0.9461229}
     speed: 2
     m_Value: {x: -0.22882448, y: -0.22278954, z: 0.05390463, w: -0.9460965}
+=======
+    m_Target: {x: -0.32292536, y: -0.0016750894, z: 0.0005917793, w: -0.9464552}
+    speed: 2
+    m_Value: {x: -0.32291546, y: -0.001675038, z: 0.0005917612, w: -0.9464262}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: -0.32292536, y: -0.0016750894, z: 0.0005917793, w: -0.9464552}
     speed: 2
@@ -477,11 +496,19 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Assets/Carrot
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Carrot
+=======
+    - Assets/UI
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/UI
+>>>>>>> Stashed changes
 =======
     - Assets/UI
   m_ViewMode: 1
@@ -496,9 +523,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 482d0000
     m_LastClickedID: 11592
     m_ExpandedIDs: 000000009c2c0000
+=======
+    m_SelectedIDs: 2a2e0000
+    m_LastClickedID: 11818
+    m_ExpandedIDs: 00000000e22c0000
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: 2a2e0000
     m_LastClickedID: 11818
@@ -557,9 +590,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedInstanceIDs: c2340000
     m_LastClickedInstanceID: 13506
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_SelectedInstanceIDs: 1efaffff
+    m_LastClickedInstanceID: -1506
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> Stashed changes
 =======
     m_SelectedInstanceIDs: 1efaffff
     m_LastClickedInstanceID: -1506
@@ -682,8 +721,13 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LastInspectedObjectInstanceID: 13506
   m_LastVerticalScrollValue: 0
+=======
+  m_LastInspectedObjectInstanceID: -1506
+  m_LastVerticalScrollValue: 464
+>>>>>>> Stashed changes
 =======
   m_LastInspectedObjectInstanceID: -1506
   m_LastVerticalScrollValue: 464
