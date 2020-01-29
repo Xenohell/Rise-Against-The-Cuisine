@@ -123,6 +123,9 @@ MonoBehaviour:
 =======
   controlID: 1799
 >>>>>>> Stashed changes
+=======
+  controlID: 1799
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +152,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 316
+=======
+  controlID: 1800
+>>>>>>> Stashed changes
 =======
   controlID: 1800
 >>>>>>> Stashed changes
@@ -182,7 +189,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 317
+=======
+  controlID: 1801
+>>>>>>> Stashed changes
 =======
   controlID: 1801
 >>>>>>> Stashed changes
@@ -410,7 +421,11 @@ MonoBehaviour:
       m_LastClickedID: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_ExpandedIDs: 6efbffff
+=======
+      m_ExpandedIDs: 08faffff0cfaffff1efaffff0efbffff62300000
+>>>>>>> Stashed changes
 =======
       m_ExpandedIDs: 08faffff0cfaffff1efaffff0efbffff62300000
 >>>>>>> Stashed changes
@@ -606,11 +621,19 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
+=======
+    - Assets/Carrot
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Carrot
+>>>>>>> Stashed changes
 =======
     - Assets/Carrot
   m_ViewMode: 1
@@ -633,9 +656,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 9c2c0000
     m_LastClickedID: 11420
     m_ExpandedIDs: 000000009c2c0000
+=======
+    m_SelectedIDs: 942d0000
+    m_LastClickedID: 11668
+    m_ExpandedIDs: 00000000e22c0000
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: 942d0000
     m_LastClickedID: 11668
