@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     public Transform camPivot;
     public Transform cam;
 
+    // Third Person view and Zoomed view cameras
+    public Camera ThirdPerson, Zoomed;
+
     // Initialize the camera tilt and rotation
     float yaw = 0;
     float pitch = 0;
@@ -33,6 +36,20 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        // While the Right Mouse Button is down, the view is zoomed in
+        // On release, the camera goes back to the Third Person view
+        if (Input.GetButtonDown("Fire2"))
+        {
+            //camSwitch = !camSwitch;
+            Zoomed.gameObject.SetActive(true);
+            ThirdPerson.gameObject.SetActive(false);
+        }
+        if (Input.GetButtonUp("Fire2"))
+        {
+            Zoomed.gameObject.SetActive(false);
+            ThirdPerson.gameObject.SetActive(true);
+        }
+
         Movement();
     }
 
@@ -43,7 +60,7 @@ public class Player : MonoBehaviour
         // Camera tilting upon mouse movement up and down
         pitch -= Input.GetAxis("Mouse Y") * Time.deltaTime * 180;
         // Limit the camera tilting to 40 degrees up and 40 degrees down
-        pitch = Mathf.Clamp(pitch, -40, +40);
+        pitch = Mathf.Clamp(pitch, -40, +50);
         // Apply the camera rotation and tilting to the main camera
         camPivot.rotation = Quaternion.Euler(pitch, yaw, 0);
 
@@ -72,7 +89,7 @@ public class Player : MonoBehaviour
         // If the player touches the ground, the player is able to jump
         if (Input.GetKeyDown(KeyCode.Space)&&isGrounded)
         {
-            player.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
+            player.AddForce(new Vector3(0, 6, 0), ForceMode.Impulse);
             isGrounded = false;
         }
     }
