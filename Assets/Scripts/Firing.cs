@@ -81,7 +81,7 @@ public class Firing : MonoBehaviour
 
         // Add forward force to the bullet so it moves
         Temporary_RigidBody.AddForce(transform.up * -Bullet_Speed);
-        Temporary_RigidBody.AddForce(transform.right * 25);
+
 
         // Clean the bullets after 10 seconds from the moment they have been fired
         Destroy(Temporary_Bullet_Handler, 10.0f);

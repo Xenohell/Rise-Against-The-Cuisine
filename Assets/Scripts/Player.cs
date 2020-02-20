@@ -31,23 +31,24 @@ public class Player : MonoBehaviour
     {
         // Hide the mouse cursor when playing
         Cursor.visible=false;
+
         player = GetComponent<Rigidbody>();
+        ThirdPerson.gameObject.SetActive(true);
     }
 
     void Update()
     {
         // While the Right Mouse Button is down, the view is zoomed in
         // On release, the camera goes back to the Third Person view
-        if (Input.GetButtonDown("Fire2"))
-        {
-            //camSwitch = !camSwitch;
-            Zoomed.gameObject.SetActive(true);
-            ThirdPerson.gameObject.SetActive(false);
-        }
         if (Input.GetButtonUp("Fire2"))
         {
             Zoomed.gameObject.SetActive(false);
             ThirdPerson.gameObject.SetActive(true);
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Zoomed.gameObject.SetActive(true);
+            ThirdPerson.gameObject.SetActive(false);
         }
 
         Movement();
@@ -83,13 +84,13 @@ public class Player : MonoBehaviour
             sprint=false;
 
         // Player movement speed for sprinting and running speed
-        if(sprint) transform.position += 2 * (camF * move.y + camR * move.x) * Time.deltaTime * 5   ;
-        if(!sprint) transform.position += (camF * move.y + camR * move.x) * Time.deltaTime * 5;
+        if(sprint) transform.position += 3 * (camF * move.y + camR * move.x) * Time.deltaTime * 5;
+        if(!sprint) transform.position += 2* (camF * move.y + camR * move.x) * Time.deltaTime * 5;
 
         // If the player touches the ground, the player is able to jump
         if (Input.GetKeyDown(KeyCode.Space)&&isGrounded)
         {
-            player.AddForce(new Vector3(0, 6, 0), ForceMode.Impulse);
+            player.AddForce(new Vector3(0, 8, 0), ForceMode.Impulse);
             isGrounded = false;
         }
     }

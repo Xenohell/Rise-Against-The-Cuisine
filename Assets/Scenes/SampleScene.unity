@@ -2261,7 +2261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213852904}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0.18, y: -1.0474346, z: 0.14}
+  m_LocalPosition: {x: -0.18, y: -1.0474346, z: -0.34}
   m_LocalScale: {x: 2.8556461, y: 2.8556461, z: 0.65793663}
   m_Children: []
   m_Father: {fileID: 384703741}
@@ -2713,7 +2713,6 @@ GameObject:
   - component: {fileID: 384703741}
   - component: {fileID: 384703745}
   - component: {fileID: 384703744}
-  - component: {fileID: 384703743}
   - component: {fileID: 384703742}
   m_Layer: 0
   m_Name: Cylinder
@@ -2735,7 +2734,7 @@ Transform:
   m_Children:
   - {fileID: 213852905}
   m_Father: {fileID: 1659432408}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90.00001}
 --- !u!114 &384703742
 MonoBehaviour:
@@ -2755,20 +2754,6 @@ MonoBehaviour:
   Fire_Rate: 0.2
   Max_Ammo: 10
   Reload_Time: 3
---- !u!136 &384703743
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384703740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &384703744
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6175,30 +6160,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05859103, y: 0.058679335, z: 0.2968662}
   m_Center: {x: 0.029295504, y: -0.00000041350722, z: 0.00000023841858}
---- !u!1 &1265667409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5133913965574556032, guid: 16371afc8087643489c3a53d1c0b7096,
-    type: 3}
-  m_PrefabInstance: {fileID: 2602403}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1265667411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265667409}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e5595a4eea9e6740a0f5abfd6da1552, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p_health_Text: {fileID: 855949934}
-  p_health_bar_slider: {fileID: 733114229}
-  p_current_health: 100
-  p_max_health: 100
-  testbox: {fileID: 0}
-  timeThreshold: 1
 --- !u!1 &1270367221 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5857084582866197672, guid: 98fe77ddfef085a47b2090a0d96b7857,
@@ -6691,7 +6652,7 @@ Transform:
   m_LocalScale: {x: 5.082592, y: 5.082592, z: 5.082592}
   m_Children: []
   m_Father: {fileID: 1659432408}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1421126444
 AudioListener:
@@ -6729,7 +6690,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -7130,7 +7091,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -8939,7 +8900,7 @@ Transform:
   m_LocalScale: {x: 5.0825925, y: 5.082592, z: 5.082592}
   m_Children: []
   m_Father: {fileID: 1659432408}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &2012429985
 Camera:

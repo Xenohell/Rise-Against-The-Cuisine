@@ -1,4 +1,4 @@
-﻿/*  Unity Script for Player Camera and  Movement
+﻿/*  Unity Script for Enemy Health and Taking Damage
  *  by Gabriel Cruceanu for Group Project 2 game "Rise Against the Cuisine"
  */
 
