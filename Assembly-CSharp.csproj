@@ -67,6 +67,9 @@
     <Compile Include="Assets\Scripts\NavMeshMovement.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player_Health.cs" />
+    <Compile Include="Assets\Scripts\SpiderBullet.cs" />
+    <Compile Include="Assets\Scripts\SpiderShoot.cs" />
+    <Compile Include="Assets\Scripts\WaveSystem.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/vodna/Documents/GitHub/Rise-Against-The-Cuisine/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

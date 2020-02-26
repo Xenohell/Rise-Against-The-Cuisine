@@ -19,10 +19,14 @@ public class Player : MonoBehaviour
     float yaw = 0;
     float pitch = 0;
 
+    float slowTime = 0f;
+
     // Boolean variable to check if the player should sprint or not
     bool sprint = false;
     // Boolean variable to check if the player touches the ground
     bool isGrounded = true;
+
+    bool slowed = false;
 
     Vector2 move;
     Rigidbody player;
@@ -52,9 +56,23 @@ public class Player : MonoBehaviour
         }
 
         Movement();
+
+        if (slowTime > 0)
+        {
+            slowed = true;
+            Debug.Log("Slowed down!");
+        }
+
+        if (slowTime <= 0)
+        {
+            slowed = false;
+            Debug.Log("Normal speed!");
+        }
+
+        slowTime -= Time.deltaTime;
     }
 
-    void Movement()
+    public void Movement()
     {
         // Camera rotation upon mouse movement left to right
         yaw += Input.GetAxis("Mouse X") * Time.deltaTime * 180;
@@ -76,7 +94,7 @@ public class Player : MonoBehaviour
         camR.y = 0;
         camF = camF.normalized;
         camR = camR.normalized;
-       
+
         // Check if the player should sprint or not
         if (Input.GetKeyDown(KeyCode.LeftShift)&&move.y>0) 
             sprint=true;
@@ -84,8 +102,10 @@ public class Player : MonoBehaviour
             sprint=false;
 
         // Player movement speed for sprinting and running speed
-        if(sprint) transform.position += 3 * (camF * move.y + camR * move.x) * Time.deltaTime * 5;
-        if(!sprint) transform.position += 2* (camF * move.y + camR * move.x) * Time.deltaTime * 5;
+        
+        if (sprint) transform.position += 3 * (camF * move.y + camR * move.x) * Time.deltaTime * 5;
+        if (!sprint && slowed==true) transform.position += (camF * move.y + camR * move.x) * Time.deltaTime * 5;
+        if (!sprint && slowed==false) transform.position += 2* (camF * move.y + camR * move.x) * Time.deltaTime * 5;
 
         // If the player touches the ground, the player is able to jump
         if (Input.GetKeyDown(KeyCode.Space)&&isGrounded)
@@ -99,6 +119,14 @@ public class Player : MonoBehaviour
     {
         //Set the boolean back to true whenever the player collides with the ground
         isGrounded = true;
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "SpiderBullet")
+        {
+            slowTime = 2f;
+        }
     }
 
 }
