@@ -42,11 +42,12 @@ public class Player_Health: MonoBehaviour
     // Added by Gabriel Cruceanu
     // Three methods, one for the moment when the player starts colliding with the enemy one for when the player is continously colliding,
     // and one for substracting the amount from the player's health
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
         // Checks if the player has collided with enemies
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.CompareTag("Enemy"))
         {
+            Debug.Log("Touched");
             // Reset the timer to 0
             time_colliding = 0f;
             // Deal a random amount of damage to the player
@@ -54,10 +55,10 @@ public class Player_Health: MonoBehaviour
         }
     }
 
-    private void OnCollisionStay(Collision collision)
+    void OnTriggerStay(Collider collision)
     {
         // Checks if the player has collided with enemies
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.CompareTag("Enemy"))
         {
             // Add delta time if the time is below the threshold
             if (time_colliding < timeThreshold)

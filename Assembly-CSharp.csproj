@@ -64,9 +64,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Firing.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\NavMeshMovement.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player_Health.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SpiderBullet.cs" />
     <Compile Include="Assets\Scripts\SpiderShoot.cs" />
     <Compile Include="Assets\Scripts\WaveSystem.cs" />
