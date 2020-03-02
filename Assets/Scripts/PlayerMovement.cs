@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 8f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -45,13 +45,11 @@ public class PlayerMovement : MonoBehaviour
         slowTime -= Time.deltaTime;
 
         if (slowTime <= 0)
-            speed = 12f;
-
-        if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 20f;
+            if (Input.GetKey(KeyCode.LeftShift))
+                speed = 12f;
+            else speed = 8f;
         }
-        else speed = 12f;
 
         controller.Move(move * speed * Time.deltaTime);
 

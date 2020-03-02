@@ -18,11 +18,13 @@ public class EnemyHealth : MonoBehaviour
         currentHealth = startingHealth;
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
         // When the bullet touches the enemy substract a random amount of health from the enemy's current health
         if (collision.gameObject.tag=="Bullet")
+        {
             currentHealth -= Random.Range(8, 14);
+        }
 
         // If the enemy's health is equal to 0 or drops below 0, call the Death method
         if (currentHealth <= 0)
