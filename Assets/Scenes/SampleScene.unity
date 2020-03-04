@@ -6605,6 +6605,9 @@ GameObject:
   - component: {fileID: 1173639312}
   - component: {fileID: 1173639311}
   - component: {fileID: 1173639315}
+  - component: {fileID: 1173639316}
+  - component: {fileID: 1173639318}
+  - component: {fileID: 1173639317}
   m_Layer: 0
   m_Name: SpiderTest
   m_TagString: Untagged
@@ -6620,7 +6623,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173639310}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -6679,7 +6682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173639310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.47, y: 73.62, z: -227.32}
+  m_LocalPosition: {x: -46.11, y: 70.98, z: -236.5}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 570896292}
@@ -6703,9 +6706,61 @@ MonoBehaviour:
   bulletprefab: {fileID: 3259143222509753945, guid: 6aa58460dc625e948a28b704c9370430,
     type: 3}
   player: {fileID: 1488210099}
-  range: 20
+  range: 15
   fireRate: 0.5
   playerTag: Player
+--- !u!114 &1173639316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173639310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1928435a2d26eff4dbeb2cc45f437bf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 2079472504}
+  startHealth: 100
+--- !u!195 &1173639317
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173639310}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 5
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!54 &1173639318
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173639310}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1174380723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6859513622370522124, guid: 98fe77ddfef085a47b2090a0d96b7857,
@@ -9932,6 +9987,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.074159235, y: 0.08527213, z: 0.0024329615}
   m_Center: {x: -0.00057605095, y: 0.004094557, z: 0.0012167192}
+--- !u!1 &2079472504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079472505}
+  - component: {fileID: 2079472506}
+  m_Layer: 0
+  m_Name: SpiderHome
+  m_TagString: Home
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079472505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079472504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -47.142162, y: 70.98, z: -236.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2079472506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079472504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5, z: 5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2085791949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7326717388319324049, guid: 98fe77ddfef085a47b2090a0d96b7857,
