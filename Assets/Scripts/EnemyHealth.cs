@@ -34,7 +34,9 @@ public class EnemyHealth : MonoBehaviour
     void Death()
     {
         //Destroys the game object instantly;
+        WaveSystem.EnemiesAlive--;
         Destroy(gameObject);
+
 
         // possible add-ons: sound effects, particle effects, animations, etc.
     }

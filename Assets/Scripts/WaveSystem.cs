@@ -8,7 +8,10 @@ using UnityEngine;
 
 public class WaveSystem : MonoBehaviour
 {
-    public Transform enemyPrefab;
+    public static int EnemiesAlive = 0;
+
+    public Wave[] waves;
+
     public Transform spawnPoint;
 
     public float waveTime = 10.5f;
@@ -18,10 +21,16 @@ public class WaveSystem : MonoBehaviour
 
     void Update()
     {
+        if(EnemiesAlive>0)
+        {
+            return;
+        }
+
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = waveTime;
+            return;
         }
 
         countdown -= Time.deltaTime;
@@ -30,18 +39,27 @@ public class WaveSystem : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
+        Wave wave = waves[waveNumber];
+
+        for (int i = 0; i < wave.count; i++)
+        {
+            SpawnEnemy(wave.enemy);
+            yield return new WaitForSeconds(1f/wave.rate);
+        }
+
         waveNumber++;
 
-        for (int i = 0; i < waveNumber; i++)
+        if(waveNumber == waves.Length)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(1.5f);
+            Debug.Log("Level won");
+            this.enabled = false;
         }
     }
 
-    void SpawnEnemy()
+    void SpawnEnemy(GameObject enemy)
     {
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        EnemiesAlive++;
     }
 
 }
