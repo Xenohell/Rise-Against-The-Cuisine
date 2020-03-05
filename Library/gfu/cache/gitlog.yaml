@@ -13,9 +13,1385 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-30T17:52:19.817+00:00
-  initializedAtString: 2020-01-30T17:48:31.072+00:00
+  lastUpdatedAtString: 2020-03-05T14:28:36.570+00:00
+  initializedAtString: 2020-03-05T14:28:36.570+00:00
   log:
+  - commitID: f1769c8520daa6c9f398e29a7d292532e8b5fd92
+    mergeA: 
+    mergeB: 
+    authorName: DewDoughnut
+    authorEmail: 45787842+DewDoughnut@users.noreply.github.com
+    commitEmail: 45787842+DewDoughnut@users.noreply.github.com
+    commitName: DewDoughnut
+    summary: fix my stuff
+    description: 
+    timeString: 2020-03-04T16:28:05.000+00:00
+    commitTimeString: 2020-03-04T16:28:05.000+00:00
+    changes:
+    - path: Assets\MasterVol.mixer
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\MasterVol.mixer
+      projectPath: Assets\MasterVol.mixer
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\MasterVol.mixer.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\MasterVol.mixer.meta
+      projectPath: Assets\MasterVol.mixer.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Options_scene.cs
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Options_scene.cs
+      projectPath: Assets\Options_scene.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Options_scene.cs.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Options_scene.cs.meta
+      projectPath: Assets\Options_scene.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: fb31118b80a72927ad7f671812505cc1227f8364
+    mergeA: 
+    mergeB: 
+    authorName: DewDoughnut
+    authorEmail: 45787842+DewDoughnut@users.noreply.github.com
+    commitEmail: 45787842+DewDoughnut@users.noreply.github.com
+    commitName: DewDoughnut
+    summary: stuff and things
+    description: 
+    timeString: 2020-01-30T17:53:57.000+00:00
+    commitTimeString: 2020-01-30T17:53:57.000+00:00
+    changes:
+    - path: .vs\Rise-Against-The-Cuisine\v15\.suo
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\.vs\Rise-Against-The-Cuisine\v15\.suo
+      projectPath: .vs\Rise-Against-The-Cuisine\v15\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\.vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\.vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\.vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\Rise-Against-The-Cuisine\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\UI Test Area.unity
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\Scenes\UI Test
+        Area.unity
+      projectPath: Assets\Scenes\UI Test Area.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\UI\Health Bar Prefab.prefab
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\UI\Health Bar
+        Prefab.prefab
+      projectPath: Assets\UI\Health Bar Prefab.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\UI\health_bar_number.cs
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Assets\UI\health_bar_number.cs
+      projectPath: Assets\UI\health_bar_number.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\APIUpdater\project-dependencies.graph
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.Timeline.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\UnityEditor.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\ScriptAssemblies\UnityEngine.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\3beb51-29e7a8ddf7d44a649b.json
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\StateCache\Hierarchy\3beb51-29e7a8ddf7d44a649b.json
+      projectPath: Library\StateCache\Hierarchy\3beb51-29e7a8ddf7d44a649b.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\3beb51-75a706724edabd0449.json
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\StateCache\Hierarchy\3beb51-75a706724edabd0449.json
+      projectPath: Library\StateCache\Hierarchy\3beb51-75a706724edabd0449.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\a95372-29e7a8ddf7d44a649b.json
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\StateCache\SceneView\a95372-29e7a8ddf7d44a649b.json
+      projectPath: Library\StateCache\SceneView\a95372-29e7a8ddf7d44a649b.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\a95372-75a706724edabd0449.json
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\StateCache\SceneView\a95372-75a706724edabd0449.json
+      projectPath: Library\StateCache\SceneView\a95372-75a706724edabd0449.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\a95372-mainStage.json
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\StateCache\SceneView\a95372-mainStage.json
+      projectPath: Library\StateCache\SceneView\a95372-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\16\16371afc8087643489c3a53d1c0b7096
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\16\16371afc8087643489c3a53d1c0b7096
+      projectPath: Library\metadata\16\16371afc8087643489c3a53d1c0b7096
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\16\16371afc8087643489c3a53d1c0b7096.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\16\16371afc8087643489c3a53d1c0b7096.info
+      projectPath: Library\metadata\16\16371afc8087643489c3a53d1c0b7096.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\23\23c8bee69b591054094d32918f98facd
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\23\23c8bee69b591054094d32918f98facd
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\29\29e7a8ddf7d44a649b4c8218395b95ba
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\29\29e7a8ddf7d44a649b4c8218395b95ba
+      projectPath: Library\metadata\29\29e7a8ddf7d44a649b4c8218395b95ba
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\29\29e7a8ddf7d44a649b4c8218395b95ba.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\29\29e7a8ddf7d44a649b4c8218395b95ba.info
+      projectPath: Library\metadata\29\29e7a8ddf7d44a649b4c8218395b95ba.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9
+      projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+      projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5
+      projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+      projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e
+      projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+      projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\4e\4e5595a4eea9e6740a0f5abfd6da1552
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\4e\4e5595a4eea9e6740a0f5abfd6da1552
+      projectPath: Library\metadata\4e\4e5595a4eea9e6740a0f5abfd6da1552
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\4e\4e5595a4eea9e6740a0f5abfd6da1552.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\4e\4e5595a4eea9e6740a0f5abfd6da1552.info
+      projectPath: Library\metadata\4e\4e5595a4eea9e6740a0f5abfd6da1552.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336
+      projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+      projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\65\651c489e7e4249d43b46cf1dc8ceed9a
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\65\651c489e7e4249d43b46cf1dc8ceed9a
+      projectPath: Library\metadata\65\651c489e7e4249d43b46cf1dc8ceed9a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\65\651c489e7e4249d43b46cf1dc8ceed9a.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\65\651c489e7e4249d43b46cf1dc8ceed9a.info
+      projectPath: Library\metadata\65\651c489e7e4249d43b46cf1dc8ceed9a.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615
+      projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+      projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\75\75a706724edabd04496eb1b13438f2ed
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\75\75a706724edabd04496eb1b13438f2ed
+      projectPath: Library\metadata\75\75a706724edabd04496eb1b13438f2ed
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\75\75a706724edabd04496eb1b13438f2ed.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\75\75a706724edabd04496eb1b13438f2ed.info
+      projectPath: Library\metadata\75\75a706724edabd04496eb1b13438f2ed.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\87\877ef3585573ce44eab899298be23158
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\87\877ef3585573ce44eab899298be23158
+      projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\88\8803c3fb9bad6e344854f83284b992a3
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\88\8803c3fb9bad6e344854f83284b992a3
+      projectPath: Library\metadata\88\8803c3fb9bad6e344854f83284b992a3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\88\8803c3fb9bad6e344854f83284b992a3.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\88\8803c3fb9bad6e344854f83284b992a3.info
+      projectPath: Library\metadata\88\8803c3fb9bad6e344854f83284b992a3.info
+      originalPath: Library\metadata\d0\d08bbd603c914964190713bd95689eb3.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\8b\8b25c79b3e23eb74793e1678c8066425.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\8b\8b25c79b3e23eb74793e1678c8066425.info
+      projectPath: Library\metadata\8b\8b25c79b3e23eb74793e1678c8066425.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8f\8f7eb08ae71b02c4e8795b30e4d107a8
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\8f\8f7eb08ae71b02c4e8795b30e4d107a8
+      projectPath: Library\metadata\8f\8f7eb08ae71b02c4e8795b30e4d107a8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\8f\8f7eb08ae71b02c4e8795b30e4d107a8.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\8f\8f7eb08ae71b02c4e8795b30e4d107a8.info
+      projectPath: Library\metadata\8f\8f7eb08ae71b02c4e8795b30e4d107a8.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\96\9646ede0d55781643a3ff93ab4a5ac53
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\96\9646ede0d55781643a3ff93ab4a5ac53
+      projectPath: Library\metadata\96\9646ede0d55781643a3ff93ab4a5ac53
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\96\9646ede0d55781643a3ff93ab4a5ac53.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\96\9646ede0d55781643a3ff93ab4a5ac53.info
+      projectPath: Library\metadata\96\9646ede0d55781643a3ff93ab4a5ac53.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\a5\a5959def73eaf7e4db19aaafda8de2d6
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\a5\a5959def73eaf7e4db19aaafda8de2d6
+      projectPath: Library\metadata\a5\a5959def73eaf7e4db19aaafda8de2d6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\a5\a5959def73eaf7e4db19aaafda8de2d6.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\a5\a5959def73eaf7e4db19aaafda8de2d6.info
+      projectPath: Library\metadata\a5\a5959def73eaf7e4db19aaafda8de2d6.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\bc\bce609f91633a2843afe438f805e0a95
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\bc\bce609f91633a2843afe438f805e0a95
+      projectPath: Library\metadata\bc\bce609f91633a2843afe438f805e0a95
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\bc\bce609f91633a2843afe438f805e0a95.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\bc\bce609f91633a2843afe438f805e0a95.info
+      projectPath: Library\metadata\bc\bce609f91633a2843afe438f805e0a95.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c
+      projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+      projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\d3\d3f45b44037695949aeb02bc85beb91d.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\d3\d3f45b44037695949aeb02bc85beb91d.info
+      projectPath: Library\metadata\d3\d3f45b44037695949aeb02bc85beb91d.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Rise-Against-The-Cuisine.sln
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\Rise-Against-The-Cuisine.sln
+      projectPath: Rise-Against-The-Cuisine.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.dll
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.dll
+      projectPath: obj\Debug\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.pdb
+      fullPath: C:\Users\dewdo\sites\Rise-Against-The-Cuisine\obj\Debug\Assembly-CSharp.pdb
+      projectPath: obj\Debug\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: b0bbb30a66e647b4b659b745192c4a188eb35f67
     mergeA: 
     mergeB: 

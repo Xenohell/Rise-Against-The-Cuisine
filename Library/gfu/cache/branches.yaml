@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-01-30T17:52:12.975+00:00
-  initializedAtString: 2020-01-30T17:48:18.794+00:00
+  lastUpdatedAtString: 2020-03-05T14:28:28.326+00:00
+  initializedAtString: 2020-03-05T14:28:27.990+00:00
   localBranches:
   - name: Donovan_UI
     tracking: origin/Donovan_UI
@@ -23,6 +23,8 @@ MonoBehaviour:
   - name: testbranch
     tracking: origin/testbranch
   remoteBranches:
+  - name: origin/Artise_Test
+    tracking: '[None]'
   - name: origin/Donovan_UI
     tracking: '[None]'
   - name: origin/HEAD
@@ -65,12 +67,18 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - Artise_Test
       - Donovan_UI
       - HEAD
       - master
       - testbranch
     subKeyValues:
     - Values:
+      - name: Artise_Test
+        remote:
+          name: origin
+          url: https://github.com/Xenohell/Rise-Against-The-Cuisine.git
+        trackingBranch: 
       - name: Donovan_UI
         remote:
           name: origin
