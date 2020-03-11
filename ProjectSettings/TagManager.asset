@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - SpiderBullet
   - Home
+  - Regen
   layers:
   - Default
   - TransparentFX
