@@ -15,9 +15,6 @@ public class Player_Health: MonoBehaviour
     // variables for continous damage to the player if the player keeps colliding with an enemy
     float time_colliding;
     public float timeThreshold = 1f;
-    public float regen = 10;
-    float regen_time;
-    public float regenThreshold = 1f;
     //
 
     void Start()
@@ -71,23 +68,6 @@ public class Player_Health: MonoBehaviour
                 // When the timer goes over the threshold, deals random amount of damage to the player and then resets the timer
                 PlayerDamage(Random.Range(4, 7));
                 time_colliding = 0f;
-            }
-        }
-
-        if (collision.CompareTag("Regen"))
-        {
-            if (regen_time < regenThreshold)
-                regen_time += Time.deltaTime;
-            else
-            {
-                if (p_current_health < p_max_health)
-                {
-                    p_current_health += regen;
-                    regen_time=0f;
-                }
-                    
-                if (p_current_health >= p_max_health)
-                    p_current_health = p_max_health;
             }
         }
     }
