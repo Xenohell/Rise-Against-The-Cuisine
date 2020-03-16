@@ -6,7 +6,14 @@ public class SpiderBullet : MonoBehaviour
 {
     private Transform target;
 
-    public float speed = 40f;
+    public float speed = 20f;
+
+    private Vector3 direction;
+
+    public void Start()
+    {
+        direction = target.position - transform.position;
+    }
 
     public void Seek(Transform _target)
     {
@@ -20,17 +27,16 @@ public class SpiderBullet : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
-        Vector3 direction = target.position - transform.position;
+        
         float distanceThisFrame = speed * Time.deltaTime;
 
-        if (direction.magnitude <= distanceThisFrame)
-        {
-            HitTarget();
-            return;
-        }
-
         transform.Translate(direction.normalized * distanceThisFrame, Space.World);
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Player")
+            HitTarget();
     }
 
     void HitTarget()

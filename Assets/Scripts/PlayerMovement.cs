@@ -10,12 +10,12 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 8f;
-    public float gravity = -9.81f;
-    public float jumpHeight = 3f;
-
+    public float speed = 0.5f;
+    public float gravity = -4.91f;
+    public float jumpHeight = 0.5f;
+        
     public Transform groundCheck;
-    public float groundDistance = 0.4f;
+    public float groundDistance = 0.1f;
     public LayerMask groundMask;
 
     public float slowTime=0;
@@ -40,15 +40,15 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         if (slowTime>0)
-            speed = 4f;
+            speed = 0.2f; ;
 
         slowTime -= Time.deltaTime;
 
         if (slowTime <= 0)
         {
             if (Input.GetKey(KeyCode.LeftShift))
-                speed = 12f;
-            else speed = 8f;
+                speed = 1f;
+            else speed = 0.5f;
         }
 
         controller.Move(move * speed * Time.deltaTime);

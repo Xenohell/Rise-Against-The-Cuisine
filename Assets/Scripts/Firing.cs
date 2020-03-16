@@ -13,7 +13,7 @@ public class Firing : MonoBehaviour
     public GameObject Bullet;
 
     // Declare the bullet speed and the rate of fire (the rate of fire is inversely proportional)
-    public float Bullet_Speed;
+    public float Bullet_Speed = 40;
     public float Fire_Rate;
 
     // Declare the max ammo count, the current ammo, and the reload time (seconds)
