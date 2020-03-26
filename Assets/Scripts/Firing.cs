@@ -5,6 +5,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Firing : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class Firing : MonoBehaviour
     // Time between the first bullet shot and the next one
     private float Time_Elapsed;
 
-    Vector2 nativeSize = new Vector2(640, 480);
+    public Text Ammo_Count;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +46,10 @@ public class Firing : MonoBehaviour
 
         // Check if the player is reloading
         if (isReloading)
+        {
+            Ammo_Count.text = "Reloading...";
             return;
+        }
 
         // Whenever the ammo drops down to or below 0, or whenever the ammo is less than the maximum ammo and the R button is pressed, reload the gun
         if (Current_Ammo <= 0 || (Current_Ammo<Max_Ammo&&Input.GetKeyDown("r")))
@@ -60,7 +64,8 @@ public class Firing : MonoBehaviour
             Time_Elapsed = 0;
             Shoot();    
         }
-        
+
+        Ammo_Count.text = Current_Ammo + " / " + Max_Ammo;
     }
 
     void Shoot()
@@ -91,20 +96,9 @@ public class Firing : MonoBehaviour
     IEnumerator Reload()
     {
         isReloading = true;
-        Debug.Log("Reloading...");
         yield return new WaitForSeconds(Reload_Time);
         Current_Ammo = Max_Ammo;
         isReloading = false;
     }
 
-    // Display on the HUD the ammo count and whether the player is reloading or not
-    void OnGUI()
-    {
-        GUIStyle style = new GUIStyle();
-        style.fontSize = (int)(20.0f * ( Screen.width /  (float)nativeSize.x));
-
-        GUI.Label(new Rect(Screen.width-100, Screen.height-100, 100, 20), Current_Ammo.ToString() + "/" + Max_Ammo.ToString(), style);
-        if (isReloading)
-            GUI.Label(new Rect(Screen.width - 100, Screen.height - 120, 100, 20), "Reloading...");
-    }
 }

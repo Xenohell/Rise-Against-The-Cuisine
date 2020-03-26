@@ -41,7 +41,7 @@ public class SpiderShoot : MonoBehaviour
         Vector3 direction = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         Vector3 rotation = Quaternion.Lerp(spider.rotation, lookRotation, Time.deltaTime * 2).eulerAngles;
-        spider.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        spider.rotation = Quaternion.Euler(-90f, rotation.y, 0f);
 
         if(fireCountdown<=0f)
         {

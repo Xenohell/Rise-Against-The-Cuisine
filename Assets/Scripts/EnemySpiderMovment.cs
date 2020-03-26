@@ -47,10 +47,8 @@ public class EnemySpiderMovment : MonoBehaviour
 
         if (currentHealth <= 30)
         {
-            Debug.Log("Retreat!");
             target = home.transform;
             agent.speed = 5f;
-            
         }
 
         if (currentHealth >= 100)
@@ -60,15 +58,10 @@ public class EnemySpiderMovment : MonoBehaviour
             agent.speed = 3.5f;
         }
 
-
         if (dist > agent.stoppingDistance)
         {
             agent.SetDestination(target.position);
         }
-
-
-
-        //Debug.Log(currentHealth);
     }
 
     void OnTriggerEnter(Collider collision)
