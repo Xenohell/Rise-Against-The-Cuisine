@@ -384,7 +384,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e4380000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 6efbffff
       m_RenameOverlay:
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.3624353, y: 0.40526447, z: -3.9005606}
+    m_Target: {x: 3.4490156, y: 0.9397705, z: -6.8665786}
     speed: 2
-    m_Value: {x: -3.3624353, y: 0.40526447, z: -3.9005606}
+    m_Value: {x: 3.4490156, y: 0.9397705, z: -6.8665786}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -477,9 +477,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.25279593, y: -0.07315099, z: 0.018575357, w: -0.96485555}
+    m_Target: {x: -0.11975255, y: -0.72429526, z: 0.12915565, w: -0.6670469}
     speed: 2
-    m_Value: {x: -0.25269854, y: -0.074577756, z: 0.018949337, w: -0.9644804}
+    m_Value: {x: -0.1195242, y: -0.72508585, z: 0.12929784, w: -0.66576767}
   m_Size:
     m_Target: 1.8482811
     speed: 2
@@ -584,10 +584,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 90.54107}
+    scrollPos: {x: 0, y: 169.08696}
     m_SelectedIDs: 70330000
     m_LastClickedID: 13168
-    m_ExpandedIDs: 00000000fa3200006033000004350000d038000000ca9a3b
+    m_ExpandedIDs: 00000000fa32000060330000043500001c360000d038000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,7 +615,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa320000
+    m_ExpandedIDs: 00000000fa3200006033000004350000d0380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 202
+  m_DirectoriesAreaWidth: 212
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
