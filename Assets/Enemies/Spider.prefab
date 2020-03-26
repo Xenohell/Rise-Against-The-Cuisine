@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: -2842398631940622912}
   - component: {fileID: 473026456898839343}
   - component: {fileID: 575226995}
+  - component: {fileID: 3818064749101000420}
+  - component: {fileID: 3818064749101000421}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -153,6 +155,40 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 690106047850165013, guid: 9d099098f62cfcb4ea02d71ebd7d80e2, type: 3}
+--- !u!114 &3818064749101000420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199315484107843651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1928435a2d26eff4dbeb2cc45f437bf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 0}
+  startHealth: 100
+--- !u!114 &3818064749101000421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199315484107843651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9110f7e372290cf4d9e8ef533d169f50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 6347185415493384059}
+  spider: {fileID: 3791826070461569616}
+  bulletprefab: {fileID: 3259143222509753945, guid: 6aa58460dc625e948a28b704c9370430,
+    type: 3}
+  player: {fileID: 0}
+  range: 2
+  fireRate: 0.5
+  playerTag: Player
 --- !u!1 &507963250025834612
 GameObject:
   m_ObjectHideFlags: 0
