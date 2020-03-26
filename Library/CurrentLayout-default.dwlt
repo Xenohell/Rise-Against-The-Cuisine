@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -384,9 +384,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0ec7ffff
+      m_SelectedIDs: e4380000
       m_LastClickedID: 0
-      m_ExpandedIDs: 04cfffff
+      m_ExpandedIDs: 6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.32405657, y: 1.0155617, z: -7.3302565}
+    m_Target: {x: -3.3624353, y: 0.40526447, z: -3.9005606}
     speed: 2
-    m_Value: {x: 0.32405657, y: 1.0155617, z: -7.3302565}
+    m_Value: {x: -3.3624353, y: 0.40526447, z: -3.9005606}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -477,9 +477,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.05286776, y: -0.9430036, z: 0.27299115, w: 0.18425408}
+    m_Target: {x: -0.25279593, y: -0.07315099, z: 0.018575357, w: -0.96485555}
     speed: 2
-    m_Value: {x: 0.052025277, y: -0.94397503, z: 0.26867428, w: 0.18444152}
+    m_Value: {x: -0.25269854, y: -0.074577756, z: 0.018949337, w: -0.9644804}
   m_Size:
     m_Target: 1.8482811
     speed: 2
@@ -574,34 +574,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/textures/New Textures/MILK
+    - Assets/Materials/New Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/textures/New Textures/MILK
+  - Assets/Materials/New Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Silen\Documents\GitHub\Rise-Against-The-Cuisine
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 288}
-    m_SelectedIDs: ac4a0000
-    m_LastClickedID: 19116
-    m_ExpandedIDs: 00000000a03e0000fc3e00008040000094410000a242000000ca9a3b
+    scrollPos: {x: 0, y: 90.54107}
+    m_SelectedIDs: 70330000
+    m_LastClickedID: 13168
+    m_ExpandedIDs: 00000000fa3200006033000004350000d038000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: plate
-      m_OriginalName: plate
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18168
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -615,7 +615,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a03e0000
+    m_ExpandedIDs: 00000000fa320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
