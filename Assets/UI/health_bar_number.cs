@@ -11,7 +11,7 @@ public class health_bar_number : MonoBehaviour
 
     public Slider p_health_bar_slider; // the healthbar slider only works between 1 and 0 so works as decimal values
     public float p_current_health; //this is the current health
-    public float p_max_health; // max health. current health cant go over max health unless changed outside of game
+    public float p_max_health = 100; // max health. current health cant go over max health unless changed outside of game
     public GameObject testbox; // to be changed to player
 
     public bool GameOverBool = false; // and its a boolean for when you die the game isnt over
