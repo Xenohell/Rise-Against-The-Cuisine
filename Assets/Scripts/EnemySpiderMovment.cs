@@ -71,7 +71,7 @@ public class EnemySpiderMovment : MonoBehaviour
         // When the bullet touches the enemy substract a random amount of health from the enemy's current health
         if (collision.gameObject.tag == "Bullet")
         {
-            currentHealth -= Random.Range(8, 14);
+            currentHealth -= Random.Range(15, 25);
         }
 
         if (collision.gameObject.tag == "Home")
@@ -80,8 +80,8 @@ public class EnemySpiderMovment : MonoBehaviour
         }
 
         // If the enemy's health is equal to 0 or drops below 0, call the Death method
-        //if (currentHealth <= 0)
-        //Death();
+        if (currentHealth <= 0)
+        Death();
     }
 
 }
